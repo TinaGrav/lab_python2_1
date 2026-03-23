@@ -32,19 +32,19 @@
 </pre>
 
 ## Инструкция к использованию
-### Установить репозиторий
-git clone https://github.com/TinaGrav/lab_python2_1
- 
+Установить репозиторий
+```git clone https://github.com/TinaGrav/lab_python2_1```
+перейти в папку с содержимым лабы 
 
-cd lab_python2_1
- - перейти в папку с содержимым лабы
+```cd lab_python2_1```
+ 
 
 ### Запустить 
 Для запсука main.py
+ 
+```cd src```
 
-cd src
-
-python main.py
+```python main.py```
 
 После запуска программы пользователь увидит приветсвенное сообщение и инструкцию по работе с программой. 
 
@@ -52,12 +52,12 @@ python main.py
 
 Windows: 
 
-cd pytest
+``` cd pytest ```
 
-pytest
+``` pytest ```
 
 Linux/Mac: 
-PYTHONPATH=src pytest
+```PYTHONPATH=src pytest```
 
 # Допущения
 - При создании задач с помощью генератора используется файл, в котором заранее прописан список возможных задач
